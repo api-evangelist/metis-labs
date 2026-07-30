@@ -1,7 +1,25 @@
 aid: metis-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/metis-labs.png
 name: Metis Labs
-description: Metis Labs is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Metis Labs Limited is a London-based industrial AI company founded in 2017
+  by Alex Appelbe and Bashir Beikzadeh (an Entrepreneur First EF8 alumnus and a Speedinvest
+  portfolio company). Its product, Kelvin Analytics, is an intelligent factory-optimization
+  platform that applies reinforcement machine-learning to real-time monitoring and
+  predictive analysis, helping process manufacturers in consumer-packaged chemicals,
+  food and beverage, and construction materials cut production-line waste, raise product
+  quality, and improve throughput. Metis Labs was acquired by Ascalia in September
+  2024. No public API, developer portal, or documentation surface is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/metis-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,32 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: ascalia
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Manufacturing
+- Industrial IoT
+- Factory Optimization
+- Machine Learning
+- Process Manufacturing
 apis: []
+common:
+- type: Website
+  url: https://www.metislabs.tech/
+- type: GitHubOrganization
+  url: https://github.com/metislabs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
